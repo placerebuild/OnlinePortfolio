@@ -189,6 +189,12 @@ section { position: relative; z-index: 1; }
   font-size: 5rem; color: var(--purple-3);
   box-shadow: 0 0 60px rgba(124,58,237,.3);
   position: relative;
+  overflow: hidden;
+}
+.about-avatar img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .about-avatar::after {
   content: '';
